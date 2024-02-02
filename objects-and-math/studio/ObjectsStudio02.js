@@ -1,5 +1,11 @@
 // Code your orbitCircumference function here:
+function calculateCircumference(radius) {
+  let circumference = 2 * Math.PI * radius;
+  return Math.round(circumference);
+}
 
+console.log(calculateCircumference(3));
+console.log(calculateCircumference(100));
 
 // Code your missionDuration function here:
 
