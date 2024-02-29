@@ -7,48 +7,6 @@
     </head>
     <body>
         <h1>Flight Simulator</h1>
-
-        <form method="POST" action="https://handlers.education.launchcode.org/request-parrot">
-            <label>Test Name <input type="text" name="testName"/></label>
-            <br>
-            
-            <label for="date">Test Date</label>
-            <input type="date" id="date" name="testDate"/>
-            <br>
-            
-            <label for="rocket">Rocket Type</label>
-            <select name="rocketType" id="rocket">
-                <option value="brant">Brant</option>
-                <option value="lynx">Lynx</option>
-                <option value="orion">Orion</option>
-                <option value="terrier">Terrier</option>
-            </select>
-            <br>
-            
-            <label for="boosters">Number of Rocket Boosters</label>
-            <input type="number" id="boosters" name="boosterCount"/>
-            <br>
-
-            <p>Wind Rating</p>
-            <label for="wind1">No Wind:</label>
-            <input type="radio" id="wind1" name="windRating" value="0"/>
-            
-            <label for="wind2">Mild:</label>
-            <input type="radio" id="wind2" name="windRating" value="10"/>
-            
-            <label for="wind3">Strong:</label>
-            <input type="radio" id="wind3" name="windRating" value="20"/>
-            <br>
-
-            <label for="servers">Use production grade servers</label>
-            <input type="checkbox" name="productionServers" id="servers">
-            <br>
-            
-            <button>Run Simulation</button>
-        </form>
-
-
-
         <p id="statusReport">The shuttle is on the ground</p>
         <button id = "liftoffButton">Take off</button>
         <button id = "abortMission">Abort mission</button>
